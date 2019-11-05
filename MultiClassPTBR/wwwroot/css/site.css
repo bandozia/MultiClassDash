@@ -154,15 +154,24 @@ app {
 
 .hardwareMonitor {
     overflow: hidden;   
-    background-size: 11px 11px;
+    background-size: 11px 11px;        
 }
 
 .hardwareMonitor.light {
-    background-color: #d5d8e5;
+    background-color: #e3e2ed;
     background-image: repeating-linear-gradient(0deg, transparent, transparent 10px, #FFF 10px, #FFF 11px), repeating-linear-gradient(-90deg, transparent, transparent 10px, #FFF 10px, #FFF 11px);
 }
 
 .hardwareMonitor.dark {
     background-color: #121314;
     background-image: repeating-linear-gradient(0deg, transparent, transparent 10px, #4b4c53 10px, #4b4c53 11px), repeating-linear-gradient(-90deg, transparent, transparent 10px, #4b4c53 10px, #4b4c53 11px);
+}
+
+.def_nav {
+    color:#333333;
+    padding-right:1rem;
+}
+
+.active {
+    text-decoration: underline;
 }
